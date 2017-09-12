@@ -1,5 +1,5 @@
 <?php
-namespace JSK\Editor;
+namespace Xetaio\Editor;
 
 use Illuminate\Support\ServiceProvider;
 

@@ -1,5 +1,5 @@
 {
-    "name": "jsk/xetaravel-editor-md",
+    "name": "xetaio/xetaravel-editor-md",
     "description": "A wrapper to use Editor.md with Laravel.",
     "keywords": [
         "laravel",
@@ -36,7 +36,7 @@
     },
     "autoload": {
         "psr-4": {
-            "JSK\\Editor\\": "src/"
+            "Xetaio\\Editor\\": "src/"
         },
         "files": [
             "src/helpers.php"
