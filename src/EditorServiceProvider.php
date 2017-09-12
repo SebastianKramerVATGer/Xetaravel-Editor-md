@@ -1,5 +1,5 @@
 <?php
-namespace Xetaio\Editor;
+namespace JSK\Editor;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -19,11 +19,6 @@ class EditorServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__ . '/../public' => public_path(''),
         ], 'public');
-
-        $routePath = __DIR__ . '/Http/routes.php';
-        if (!$this->app->routesAreCached()) {
-            include $routePath;
-        }
     }
 
     /**

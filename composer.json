@@ -1,5 +1,5 @@
 {
-    "name": "xetaio/xetaravel-editor-md",
+    "name": "jsk/xetaravel-editor-md",
     "description": "A wrapper to use Editor.md with Laravel.",
     "keywords": [
         "laravel",
@@ -8,10 +8,10 @@
         "markdown",
         "wysiwyg"
     ],
-    "homepage": "https://github.com/XetaIO/Xetaravel-Editor-md",
+    "homepage": "https://github.com/SebastianKramerVATGer/Xetaravel-Editor-md.git",
     "support": {
-        "source": "https://github.com/XetaIO/Xetaravel-Editor-md",
-        "issues": "https://github.com/XetaIO/Xetaravel-Editor-md/issues"
+        "source": "https://github.com/SebastianKramerVATGer/Xetaravel-Editor-md",
+        "issues": "https://github.com/SebastianKramerVATGer/Xetaravel-Editor-md/issues"
     },
     "type": "library",
     "license": "MIT",
@@ -24,15 +24,19 @@
         {
             "name": "raoyc",
             "email": "raoyc2009@gmail.com"
+        },
+        {
+            "name": "SebastianKramerVATGer",
+            "email": "info@jskramer.de"
         }
     ],
     "require": {
         "php": ">=7.0",
-        "laravel/framework": "5.4.*"
+        "laravel/framework": "5.*"
     },
     "autoload": {
         "psr-4": {
-            "Xetaio\\Editor\\": "src/"
+            "JSK\\Editor\\": "src/"
         },
         "files": [
             "src/helpers.php"
